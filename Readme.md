@@ -148,8 +148,8 @@ Run a process inside a running container
 # `docker inspect`
 
 Inspect the status and metadata of a container. 
-    * Add metada with `LABEL` `Dockerfile` instruction
-    * Add status with `HEALTHCHECK` `Dockerfile` instruction
+* Add metada with `LABEL` `Dockerfile` instruction
+* Add status with `HEALTHCHECK` `Dockerfile` instruction
 
 # `docker images`
 
