@@ -85,7 +85,7 @@ Create a container from an image and run it. Multiple containers can be created 
 * `--name` name the container
 * `--log-driver` send logs somewhere else
 * `--restart=always` restart the container if it crashes
-* `-p` assign a specific port from the host machine to the container
+* `-p` assign a specific port from the host machine to the container (-p hostPort:containerPort)
 * `-P` assign random ports from the host machine to the container
 * `-w` override `WORKDIR` from `Dockerfile`
 * `-u` the user to run as in the container (default root)
