@@ -141,7 +141,7 @@ Run a process inside a running container
 * e.g. `docker exec -d my_container touch /etc/new_file`
     * `-d` is in the background
     * `touch /etc/new_file` creates a new file
-* e.g. `docker exec -t -i my_container /bin/bash`
+* e.g. Shell into running container: `docker exec -t -i my_container /bin/bash`
     * see `docker run` for `-t -i`
     * `bin/bash` run a shell
 
